@@ -92,7 +92,6 @@ function currentWeather(data) {
 }
 
 
-// Defines Forecast for Display
 function displayForecast(data) {
   const dayTemp = document.querySelectorAll('.day_temp')
   for (let i = 0; i < dayTemp.length; i++) {
