@@ -1,6 +1,6 @@
 
 // config.js
-import API_KEY from './config.js'
+import { API_KEY } from './config.js'
 
 const searchButton = document.querySelector('#searchButton')
 const citySearch = document.querySelector('#city__search')
